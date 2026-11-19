@@ -1,0 +1,5 @@
+name,description,qty,unit,unit_price,discount_pct
+Backend API Architecture,REST endpoints and schema design,12,hrs,95.00,0
+Frontend Dashboard Implementation,Responsive A4 report layout and state logic,16,hrs,85.00,10
+Deployment & CI Setup,Docker Compose and automated test runner,4,hrs,90.00,0
+Managed Cloud Hosting (Q2),Staging environment provisioning,1,pkg,250.00,0

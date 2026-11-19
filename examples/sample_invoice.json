@@ -1,0 +1,42 @@
+{
+  "doc_type": "invoice",
+  "doc_number": "INV-2026-042",
+  "issue_date": "2026-03-15",
+  "due_date": "2026-03-29",
+  "currency": "EUR",
+  "discount": "5%",
+  "tax_rate": "19",
+  "tax_mode": "exclusive",
+  "tax_label": "VAT",
+  "seller": {
+    "name": "Northwind Systems Ltd.",
+    "tax_id": "EU-VAT-90210",
+    "address": "42 Harbor View Road\n10115 Berlin",
+    "email": "billing@example.com"
+  },
+  "client": {
+    "name": "Contoso Retail GmbH",
+    "tax_id": "DE-30488211",
+    "address": "18 Market Square\n80331 Munich",
+    "email": "accounts@example.org"
+  },
+  "notes": "Please remit payment within 14 days.\nReference invoice INV-2026-042 on bank transfer.",
+  "items": [
+    {
+      "name": "API Integration Sprint",
+      "description": "Order webhook sync and retry queue",
+      "qty": 10,
+      "unit": "hrs",
+      "unit_price": "110.00",
+      "discount_pct": 0
+    },
+    {
+      "name": "Database Performance Audit",
+      "description": "Index profiling and query tuning",
+      "qty": 4,
+      "unit": "hrs",
+      "unit_price": "125.00",
+      "discount_pct": 10
+    }
+  ]
+}
